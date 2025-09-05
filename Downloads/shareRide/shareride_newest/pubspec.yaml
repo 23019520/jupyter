@@ -1,0 +1,66 @@
+name: share_ride
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Firebase - Updated to latest stable versions
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.17.0
+  firebase_database: ^10.5.0
+  firebase_messaging: ^14.9.0
+
+  # Authentication
+  google_sign_in: ^6.2.1
+
+  # Maps and location
+  google_maps_flutter_web: ^0.5.0+1
+  google_maps_flutter: ^2.6.1
+  geolocator: ^10.1.1
+  geocoding: ^3.0.0
+  location: ^6.0.2
+  google_polyline_algorithm: ^3.1.0
+  flutter_polyline_points: ^2.0.0
+
+  # Permissions and notifications
+  permission_handler: ^11.3.1
+  flutter_local_notifications: ^17.2.0
+
+  # State management and utilities
+  provider: ^6.1.2
+  shared_preferences: ^2.3.1
+
+  # Networking and data
+  http: ^1.2.0
+  dio: ^5.4.3+1
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.4.0
+
+  # UI enhancements
+  cached_network_image: ^3.3.1
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
